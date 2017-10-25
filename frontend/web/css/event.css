@@ -1,0 +1,185 @@
+#event_name_and_panoram {
+    float: left;
+    width: 100%;
+    height: 90vh;
+    background-image: url(../image/video.jpg);
+    background-size: cover;
+}
+
+#event_about {
+    width: 100%;
+    float: left;
+}
+
+.event_about_coordinates {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+.event_about_coordinates li {
+    list-style: none;
+    /*font-weight: 600;*/
+    font-size: 1.5vw;
+    line-height: 30px;
+}
+
+.event_about_coordinates img {
+    padding: 1%;
+    background-color: #016f8a;
+    border-radius: 100%;
+}
+
+#event_types {
+    width: 100%;
+    float: left;
+}
+
+#event_map {
+    width: 100%;
+    height: 100vh;
+    float: left;
+    background-color: rgb(240, 240, 240);
+    /* position: relative; */
+    /*background-image: url(../image/map.jpg);
+    background-size: cover;*/
+    /* z-index: 0; */
+}
+
+
+
+/*.tour_map_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}*/
+
+.event_map_bg img {
+    width: 100%;
+    height: 100vh;
+}
+
+.map-icon-label .map-icon {
+	font-size: 24px;
+	color: #FFFFFF;
+	line-height: 48px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.event_map_pointer_box {
+    border: 1px solid #000;
+    position: absolute;
+    width: 100%;
+    padding-top: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+.event_map_pointer_substrate {
+    position: absolute;
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+    background-color: rgba(1, 218, 220, .0);
+    top: 0;
+    transition: all 0.4s ease;
+}
+
+.event_map_pointer_box > .event_map_pointer_substrate:hover {
+    background-color: rgba(1, 218, 220, .3);
+}
+
+.event_map_pointer_midle {
+    position: absolute;
+    width: 80%;
+    padding-top: 80%;
+    border-radius: 100%;
+    background-color: rgba(1, 218, 220, .7);
+    top: 10%;
+    left: 10%;
+}
+
+.event_map_pointer_midle img {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 0;
+    border-radius: 100%;
+    top: 5%;
+    left: 5%;
+}
+
+.event_map_buttons {
+    position: relative;
+    width: 12%;
+    top: -20%;
+    left: 85%;
+    /* z-index: 2; */
+}
+
+.event_map_buttons li {
+    list-style: none;
+    margin-bottom: 20%;
+    text-align: right;
+}
+
+.event_map_button_foot {
+    position: absolute;
+    background-color: rgb(105, 43, 118);
+    border-radius: 30px;
+    padding: 6% 16%;
+    font-size: 1.2vw;
+    color: #ffffff;
+    cursor: pointer;
+    right: 0;
+}
+
+.event_map_button_foot:hover {
+    background-color: rgb(105, 43, 118);
+    color: #ffffff;
+}
+
+.event_map_button_house {
+    position: absolute;
+    background-color: rgb(50, 217, 174);
+    border-radius: 30px;
+    padding: 6% 13%;
+    font-size: 1.2vw;
+    color: #ffffff;
+    cursor: pointer;
+    right: 0;
+    margin-top: 40%;
+    /* text-align: center;  */
+}
+
+.event_map_button_house:hover {
+    background-color: rgb(50, 217, 174);
+    color: #ffffff;
+}
+
+#event_share {
+    float: left;
+    width: 100%;
+    height: 50vh;
+}
+
+.event_share_title {
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#event_share ul {
+    width: 20%;
+    height: 25%;
+    margin-left: 40%;
+}
+
+#event_share li {
+    list-style: none;
+    border: 1px solid #000;
+    width: 32%;
+    height: 100%;
+    float: left;
+}

@@ -1,0 +1,276 @@
+@media screen and (min-device-width: 400px) and (max-device-width: 700px) {
+
+    /**Mobile version of main page**/
+
+    #menu{
+        background: linear-gradient(to left, #009db4, #01dadc);!important;
+        max-height: 40px;
+        min-height: 15px;
+    }
+    .icon_search, .icon_profile{
+        width: 5%;
+        padding-top: 5%;
+    }
+    .menu_logo{
+        top:10%;
+        width: 7.5%;
+        padding-top: 7.5%;
+        background-image: url("/image/main_icon.jpg");
+        /*background: #00aa00;*/
+        background-size: cover;
+        background-position: center;
+    }
+    .menu_left, .menu_list{
+        /*display: none;*/
+    }
+    .container_header_label{
+        top:15%;
+        width:90%;
+        left:5%;
+        height:60%;
+    }
+    .container_header_label_text{
+        font-size: 12px;
+    }
+    .container_header_circle_substrate {
+        width:20%;
+    }
+    .container_header_image{
+        width:100%;
+    }
+    .container_header_image img{
+        width:100%;
+        height:100vh;
+        object-fit: none;
+    }
+    .container_manual_text{
+        width: 90%;
+        left:5%;
+        text-align: left;
+        border-left:none;
+        margin-left:0;
+    }
+    .container_manual_title {
+        width: 50%;
+        margin: 5% 25% 5% 25%;
+        padding: 0px 0px 15px 0px;
+        border-bottom: 3.5px solid rgba(1, 218, 220, 1);
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+    .container_manual_block_circle{
+        display: none;
+    }
+    .container_manual_text {
+        line-height: 1.5;
+        color: #1a1a1a;
+        letter-spacing: 2px;
+        font-weight: 500;
+    }
+    .container_promo_video_and_info {
+        width:100%;
+        left: 0%;
+        top: 0%;
+    }
+    .container_promo_video{
+        width:100%;
+        float: none;
+    }
+    .container_promo_info {
+        width:100%;
+        left:0;
+        float: none;
+        position: relative;
+        box-shadow: none;
+    }
+    .container_promo_info_title {
+        font-size: 18px;
+        text-align: center;
+        left:15%;
+    }
+    .container_promo_info p {
+        font-size: 12px;
+        line-height: 1.5;
+        color: #1a1a1a;
+        letter-spacing: 2px;
+        font-weight: 500;
+    }
+    .container_events_text {
+        width: 90%;
+        margin-left:5%;
+        border-left: none;
+    }
+    .container_events_title {
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+    .container_events_line{
+        display: none;
+    }
+
+    /**End of main page mobile version**/
+
+    /**Tour mobile version**/
+
+    .filters_tours_main_type {
+        width:90%;
+        /*margin: 5%;*/
+        left:0;
+    }
+    .filters_tours_main_type li {
+        width:14%;
+        padding: 0 3%;
+    }
+    .filters_tours_type {
+        width: 90%;
+        text-align: justify;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 0;
+    }
+
+    .filters_tours_type li{
+        padding: 0 3% ;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .filters_tours_type p{
+        display: none;
+    }
+    .sort{
+        position: relative;
+        width:90%;
+        margin: 4% 5%;
+    }
+    .sort-type{
+        margin-top: 6%;
+        margin-bottom: 2%;
+    }
+    .sort-type li{
+        width: 16%;
+        font-size: 16px;!important;
+        margin-top: 10%;
+    }
+    .post{
+        width:100%;
+    }
+    .post_box_header_title{
+        margin-top: 2%;
+        font-size: 16px;
+    }
+    #tour_marker .footer_data_box{
+        position: absolute;
+        width:100%;
+        background-color: rgba(1, 111, 138, .4);
+        top: 75%;
+        left:0;
+        bottom: 0;
+        padding-top: 15%;
+        border-radius: 0px 0px 15px 15px;
+    }
+    #pagination{
+        width:70%;
+        margin-left: 15%;
+    }
+    #pagination span {
+        margin-top: 38%;
+    }
+    .container_footer_widget_left{
+        display: none;
+    }
+    .container_footer_widget_right, .container_footer_widget_left{
+        float: none;
+
+    }
+    .container_footer_widget_right a ,.container_footer_widget_left a {
+        font-size: 2.2vw;
+    }
+    .container_footer_menu_bottom_left li {
+        padding: 5px;
+        float: none;
+        font-size: 12px;
+    }
+    .google_plus img{
+        width:8%!important;
+        height: auto;
+    }
+    .container_footer_social_networks img {
+        width:4%;
+        height: auto;
+    }
+
+    /**End tour mobile version**/
+
+    /**Event page mobile version**/
+    .events_filter_type {
+        width:90%;
+        margin-left: 4%;
+    }
+    .events_button{
+        border-radius: 30px;
+        padding: 2.5%;
+        font-size: 2.2vw;
+    }
+    .events_sort_type {
+        padding: 2%;
+        width:90%;
+        left:3%;
+    }
+    .events_sort_type li{
+        border-radius: 30px;
+        padding: 3% 5%;
+        font-size: 2.2vw;
+        width:20%;
+    }
+    #events_marker .post_box_header{
+        height: 8vh;
+    }
+    #events_marker .footer_data_box{
+        position: absolute;
+        width: 40%;
+        padding-top: 40%;
+        top: 13%;
+        left: 37%;
+    }
+    #events_marker .post_box_header_time{
+        display: block;
+    }
+    #events_marker .footer_data_day{
+        /*top: 35%;*/
+        /*left:40%;*/
+        top:35%;
+        left:0;
+        width:100%;
+        text-align: center;
+        font-size: 5vw;
+    }
+    #events_marker  .footer_data_month{
+        /*top: 55%;*/
+        /*left: 22%;*/
+        top:55%;
+        left:0;
+        width:100%;
+        text-align: center;
+        font-size: 3vw;
+    }
+    /*#events_marker .footer_data_circle{*/
+        /*text-align: center;*/
+    /*}*/
+    .post_box_header_time{
+        display: block;
+        margin-top: 2%;
+        font-size: 16px;
+        margin-left: 4%;
+        color: white;
+    }
+    /**End event mobile version**/
+}
+.menu_logo {
+    background-image: url("/image/main_icon.jpg");
+}
+/*.post_box_header_time{
+    display: none;
+}*/
+.post_box_header_time{
+    display: none;
+}

@@ -1,0 +1,119 @@
+#hotel_name_and_panoram {
+    float: left;
+    width: 100%;
+    height: 90vh;
+    background-image: url(../image/video.jpg);
+    background-size: cover;
+}
+
+.hotel_substrate_color {
+    background-color: rgba(23, 199, 155, .4);
+}
+
+.hotel_circle_color {
+    background-color: rgba(23, 199, 155, .7);
+}
+
+#hotel_about {
+    width: 100%;
+    float: left;
+}
+
+#hotel_types {
+    width: 100%;
+    float: left;
+}
+
+#hotel_map {
+    width: 100%;
+    height: 100vh;
+    float: left;
+    background-color: rgb(240, 240, 240);
+    /*background-image: url(../image/map.jpg);
+    background-size: cover;*/
+}
+
+
+
+/*.tour_map_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}*/
+
+.hotel_map_bg img {
+    width: 100%;
+    height: 100vh;
+}
+
+.hotel_map_miniature_box {
+    position: relative;
+    width: 10%;
+    padding-top: 10%;
+    border-radius: 100%;
+    top: -100%;
+    left: 10%;
+}
+
+.hotel_map_miniature img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.hotel_buttons {
+    position: relative;
+    width: 12%;
+    top: -20%;
+    left: 85%;
+    /* z-index: 2; */
+}
+
+.hotel_buttons li {
+    list-style: none;
+    margin-bottom: 20%;
+    text-align: right;
+}
+
+.hotel_map_button_foot {
+    position: absolute;
+    background-color: rgb(105, 43, 118);
+    border-radius: 30px;
+    padding: 6% 16%;
+    font-size: 1.2vw;
+    color: #ffffff;
+    cursor: pointer;
+    right: 0;
+}
+
+.hotel_map_button_foot:hover {
+    background-color: rgb(105, 43, 118);
+    color: #ffffff;
+}
+
+.hotel_map_button_house {
+    position: absolute;
+    background-color: rgb(50, 217, 174);
+    border-radius: 30px;
+    padding: 6% 13%;
+    font-size: 1.2vw;
+    color: #ffffff;
+    cursor: pointer;
+    right: 0;
+    margin-top: 40%;
+    /* text-align: center;  */
+}
+
+.hotel_map_button_house:hover {
+    background-color: rgb(50, 217, 174);
+    color: #ffffff;
+}
+
+#hotel_share_rate {
+    float: left;
+    width: 100%;
+    padding-top: 30%;
+}
+
